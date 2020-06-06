@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color: #F3F8FC;
+}
+
+.navbar-nav-css {
+    margin-left: 100px;
+}
+
+.navbar-nav a:hover {
+    font-weight: bolder;
+    border-bottom: 2px solid #4F6DF5;
+}
+
+.intro {
+    display: inline-block;
+    margin: 300px 125px;
+    margin-bottom: 238px;
+    overflow: auto;
+}
+
+.name {
+    margin-bottom: 5px;
+    font-size: 75px;
+    font-weight: 1000;
+    font-family: 'Fira Sans', sans-serif;
+    text-shadow: 3px 2px 5px #aeaeae;
+}
+
+.role {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.myPoto {
+    float: right;
+    height: 750px;
+    margin-right: 150px;
+}
+
+.batas {
+    border-top: 5px solid #4F6DF5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.judul {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: block;
+}
+
+.batas-judul {
+    border-top: 5px solid #4F6DF5;
+    margin-bottom: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-about {
+    border-radius: 100%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px;
+    border: 4px solid black;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.content-about {
+    padding-bottom: 100px;
+}
+
+.p-about {
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 2.0;
+    font-size: 25px;
+    margin-top: 90px;
+}
+
+.bg-2 {
+    background-color: rgb(227, 239, 250);
+    padding-top: 10px;
+    padding-bottom: 150px;
+}
+
+/* .skills {
+} */
+
+.skill-bar {
+    background-color: #4F6DF5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+.skill-bar span {
+    color: #ffffff;
+    margin-right: 20px;
+    font-weight: 500;
+    float: right;
+}
+
+.skill {
+    border: 1px solid #bebebe;
+    margin: 20px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #aeaeae;
+    background-color: #F3F8FC;
+}
+
+.services-content {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 2.0;
+    font-size: 25px;
+    margin-bottom: 150px;
+}
+
+.projects-content {
+    text-align: center;
+}
+
+.project {
+    box-shadow: 3px 3px 5px #aeaeae;
+}
+
+.contact-me {
+    margin-top: 10px;
+}
+
+.img-contact {
+    height: 100px;
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    transition: 0.2s;
+}
+
+.img-contact:hover {
+    height: 110px;
+}
