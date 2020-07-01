@@ -8,6 +8,7 @@ body {
     background-color: #F3F8FC;
 }
 
+
 .navbar-nav-css {
     margin-left: 100px;
 }
@@ -39,8 +40,10 @@ body {
 
 .myPoto {
     float: right;
-    height: 750px;
-    margin-right: 150px;
+    margin-top: 50px;
+    height: 700px;
+    margin-right: 100px;
+    margin-bottom: 0px;
 }
 
 .batas {
@@ -91,6 +94,10 @@ body {
     background-color: rgb(227, 239, 250);
     padding-top: 10px;
     padding-bottom: 150px;
+}
+
+.hero-banner {
+    padding-bottom: 0px;
 }
 
 /* .skills {
