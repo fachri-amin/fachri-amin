@@ -1,32 +1,22 @@
-// $('.page-scroll').on('click', function (e) {
-//     e.preventDefault();
-//     // ambil nilai href
-//     let tujuan = $(this).attr('href');
+$("a[href^='#']").click(function (e) {
+    e.preventDefault();
 
-//     // ambil elemen yang dituju
-//     let elemenTujuan = $(tujuan);
+    var position = $($(this).attr("href")).offset().top;
 
-//     let hash = this.hash
-
-//     $(window).animate({
-//         scrollTop: $(hash).offset().top - 50
-//     }, 1000, 'swing', function () {
-//         window.location.hash = hash
-//     });
-
-
-// });
-
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
+    $("body, html").animate({
+        scrollTop: position
+    }, 1000, 'easeInBack');
 });
+
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//     anchor.addEventListener('click', function (e) {
+//         e.preventDefault();
+
+//         document.querySelector(this.getAttribute('href')).scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//     });
+// });
 
 
 // $('a[href*="#"]')
