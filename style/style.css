@@ -22,7 +22,7 @@ body {
     display: inline-block;
     margin: 300px 125px;
     margin-bottom: 238px;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .name {
@@ -41,7 +41,7 @@ body {
 .myPoto {
     float: right;
     margin-top: 50px;
-    height: 700px;
+    height: 693px;
     margin-right: 100px;
     margin-bottom: 0px;
 }
@@ -92,6 +92,12 @@ body {
 
 .bg-2 {
     background-color: rgb(227, 239, 250);
+    padding-top: 10px;
+    padding-bottom: 150px;
+}
+
+.bg-1 {
+    /* background-color: rgb(227, 239, 250); */
     padding-top: 10px;
     padding-bottom: 150px;
 }
