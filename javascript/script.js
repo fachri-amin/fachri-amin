@@ -5,7 +5,7 @@ $("a[href^='#']").click(function (e) {
 
     $("body, html").animate({
         scrollTop: position
-    }, 1000, 'easeInBack');
+    }, 1000, 'easeInOutBack');
 });
 
 // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
