@@ -1,12 +1,24 @@
 $("a[href^='#']").click(function (e) {
-    e.preventDefault();
+  e.preventDefault();
 
-    var position = $($(this).attr("href")).offset().top;
+  var position = $($(this).attr("href")).offset().top;
 
-    $("body, html").animate({
-        scrollTop: position
-    }, 1000, 'easeInOutBack');
+  $("body, html").animate(
+    {
+      scrollTop: position,
+    },
+    1500,
+    "easeInOutBack"
+  );
 });
+
+console.log(window.innerWidth);
+
+if(window.innerWidth <= 992){
+  let navbar = document.querySelector('.navbar');
+
+  navbar.classList.remove('fixed-top');
+}
 
 // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 //     anchor.addEventListener('click', function (e) {
@@ -17,7 +29,6 @@ $("a[href^='#']").click(function (e) {
 //         });
 //     });
 // });
-
 
 // $('a[href*="#"]')
 //     .filter((i, a) => a.getAttribute('href').startsWith('#') || a.href.startsWith(`${location.href}#`))

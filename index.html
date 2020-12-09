@@ -26,7 +26,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg p-1 navbar-light bg-transparent fixed-top">
       <button
         class="navbar-toggler"
         type="button"
@@ -38,40 +38,30 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse p-1" id="navbarNavAltMarkup">
         <div class="navbar-nav navbar-nav-css">
-          <a class="nav-item nav-link active page-scroll" href="#home">Home</a>
-          <a class="nav-item nav-link active page-scroll" href="#about"
-            >About</a
-          >
-          <a class="nav-item nav-link active page-scroll" href="#skills"
-            >Skills</a
-          >
-          <a class="nav-item nav-link active page-scroll" href="#services"
-            >Services</a
-          >
-          <a class="nav-item nav-link active page-scroll" href="#projects"
-            >Projects</a
-          >
-          <a class="nav-item nav-link active page-scroll" href="#contact"
-            >Contact</a
-          >
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link active" href="#about">About</a>
+          <a class="nav-link active" href="#skills">Skills</a>
+          <a class="nav-link active" href="#services">Services</a>
+          <a class="nav-link active" href="#projects">Projects</a>
+          <a class="nav-link active" href="#contact">Contact</a>
         </div>
       </div>
     </nav>
-    <div class="bg-2 hero-banner" id="home">
+    <div class="bg-2 hero-banner text-center" id="home">
       <div class="intro">
-        <h1 class="name">I'm Fachri Amin</h1>
-        <h1 class="role">A Freelance Web Developer</h1>
-        <div class="batas"></div>
+        <h1 class="name">MUHAMMAD INFRA FACHRI AMIN</h1>
+        <h1 class="role">Web Developer</h1>
+        <div class="batas mx-auto"></div>
         <div class="contact">
-          <a href="#"
+          <a href="https://www.linkedin.com/in/fachriamin/" target="tab"
             ><img height="30" class="" src="img/icon/linkedin.png" alt=""
           /></a>
-          <a href="#"
+          <a href="https://www.instagram.com/muhammadinfrafachriamin/" target="tab"
             ><img height="30" class="ml-3" src="img/icon/instagram.png" alt=""
           /></a>
-          <a href="#"
+          <a href="https://github.com/fachri-amin" target="tab"
             ><img
               height="30"
               class="ml-3"
@@ -80,7 +70,7 @@
           /></a>
         </div>
       </div>
-      <img src="img/myPoto.png" class="myPoto" alt="" />
+      <!-- <img src="img/myPoto.png" class="myPoto" alt="" /> -->
     </div>
 
     <div class="about bg-1" id="about">
@@ -88,7 +78,9 @@
       <div class="batas-judul"></div>
       <div class="row content-about m-0">
         <div class="col-lg-6">
-          <img class="img-about" src="img/atDilo.jpeg" alt="" />
+          <div class="poto-wrapper">
+            <img class="img-about" src="img/atDilo.jpeg" alt="" />
+          </div>
         </div>
         <div class="col-lg-6">
           <p class="p-about">
@@ -106,7 +98,7 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="skill">
-              <h3>HTML5</h3>
+              <h3>HTML & CSS</h3>
               <div
                 class="skill-bar"
                 role="progressbar"
@@ -114,19 +106,7 @@
                 aria-valuenow="80"
                 style="width: 85%;"
               >
-                <span>85%</span>
-              </div>
-            </div>
-            <div class="skill">
-              <h3>CSS3</h3>
-              <div
-                class="skill-bar"
-                role="progressbar"
-                aria-valuemax="100"
-                aria-valuenow="60"
-                style="width: 70%;"
-              >
-                <span>70%</span>
+                <span>95%</span>
               </div>
             </div>
             <div class="skill">
@@ -135,10 +115,10 @@
                 class="skill-bar"
                 role="progressbar"
                 aria-valuemax="100"
-                aria-valuenow="80"
-                style="width: 80%;"
+                aria-valuenow="60"
+                style="width: 70%;"
               >
-                <span>60%</span>
+                <span>70%</span>
               </div>
             </div>
             <div class="skill">
@@ -154,20 +134,20 @@
                 <span>70%</span>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6">
             <div class="skill">
-              <h3>Vue.JS</h3>
+              <h3>React JS</h3>
               <div
                 class="skill-bar"
                 role="progressbar"
                 aria-valuemax="100"
                 aria-valuenow="60"
-                style="width: 60%;"
+                style="width: 40%;"
               >
-                <span>60%</span>
+                <span>40%</span>
               </div>
             </div>
+          </div>
+          <div class="col-lg-6">
             <div class="skill">
               <h3>Python</h3>
               <div
@@ -193,12 +173,24 @@
               </div>
             </div>
             <div class="skill">
-              <h3>Ajax</h3>
+              <h3>PHP</h3>
               <div
                 class="skill-bar"
                 role="progressbar"
                 aria-valuemax="100"
                 aria-valuenow="60"
+                style="width: 70%;"
+              >
+                <span>70%</span>
+              </div>
+            </div>
+            <div class="skill">
+              <h3>Laravel</h3>
+              <div
+                class="skill-bar"
+                role="progressbar"
+                aria-valuemax="100"
+                aria-valuenow="80"
                 style="width: 60%;"
               >
                 <span>60%</span>
@@ -233,7 +225,7 @@
                   margin: auto;
                   border-radius: 4px;
                 "
-                class="p-2"
+                class="p-2 carousel-img-container"
               >
                 <img
                   style="width: 100%; display: block;"
@@ -250,7 +242,7 @@
                   margin: auto;
                   border-radius: 4px;
                 "
-                class="p-2"
+                class="p-2 carousel-img-container"
               >
                 <img
                   style="width: 100%; display: block;"
@@ -267,7 +259,7 @@
                   margin: auto;
                   border-radius: 4px;
                 "
-                class="p-2"
+                class="p-2 carousel-img-container"
               >
                 <img
                   style="width: 100%; display: block;"
@@ -292,7 +284,7 @@
                   margin: auto;
                   border-radius: 4px;
                 "
-                class="p-2"
+                class="p-2 carousel-img-container"
               >
                 <img
                   style="width: 100%; display: block;"
@@ -309,7 +301,7 @@
                   margin: auto;
                   border-radius: 4px;
                 "
-                class="p-2"
+                class="p-2 carousel-img-container"
               >
                 <img
                   style="width: 100%; display: block;"
@@ -326,7 +318,7 @@
                   margin: auto;
                   border-radius: 4px;
                 "
-                class="p-2"
+                class="p-2 carousel-img-container"
               >
                 <img
                   style="width: 100%; display: block;"
@@ -351,7 +343,7 @@
                   margin: auto;
                   border-radius: 4px;
                 "
-                class="p-2"
+                class="p-2 carousel-img-container"
               >
                 <img
                   style="width: 100%; display: block;"
@@ -368,7 +360,7 @@
                   margin: auto;
                   border-radius: 4px;
                 "
-                class="p-2"
+                class="p-2 carousel-img-container"
               >
                 <img
                   style="width: 100%; display: block;"
@@ -385,7 +377,7 @@
                   margin: auto;
                   border-radius: 4px;
                 "
-                class="p-2"
+                class="p-2 carousel-img-container"
               >
                 <img
                   style="width: 100%; display: block;"
