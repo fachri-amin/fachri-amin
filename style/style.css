@@ -5,17 +5,17 @@
 }
 
 body {
-  background-color: #f3f8fc;
+  background-color: rgb(227, 239, 250);
 }
 
 .bg-2 {
-  background-color: rgb(227, 239, 250);
+  /* background-color: rgb(227, 239, 250); */
   padding-top: 10px;
   padding-bottom: 150px;
 }
 
 .bg-1 {
-  /* background-color: rgb(227, 239, 250); */
+  background-color: #f3f8fc;
   padding-top: 10px;
   padding-bottom: 150px;
 }
@@ -49,10 +49,6 @@ body {
   padding-top: 50px;
 }
 
-/* .navbar-collapse {
-  background-color: rgb(164, 210, 253);
-} */
-
 .navbar-nav-css {
   text-align: center;
 }
@@ -65,12 +61,13 @@ body {
   .navbar-nav a:hover {
     font-weight: bolder;
     border-bottom: 2px solid #4f6df5;
+    background-color: rgb(227, 239, 250, 0.7);
   }
 
   .intro {
     display: inline-block;
-    margin: 250px 125px;
-    margin-bottom: 238px;
+    margin: 180px 125px;
+    margin-bottom: 320px;
     /* overflow: auto; */
   }
 
