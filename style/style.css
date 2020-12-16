@@ -20,25 +20,74 @@ body {
   padding-bottom: 150px;
 }
 
+.batas {
+  border-top: 5px solid #4f6df5;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.judul {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  display: block;
+}
+
+.batas-judul {
+  border-top: 5px solid #4f6df5;
+  margin-bottom: 30px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  padding-top: 60px;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.role {
+  font-size: 14px;
+}
+
+.contact {
+  margin-top: 30px;
+}
+
+.sosmed {
+  height: 20px;
+}
+
 .myPoto {
   display: none;
 }
 
 .img-about {
-  display: none;
+  height: 200px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 5px;
+  border: 4px solid black;
 }
 
 .img-contact {
-  display: none;
+  height: 80px;
+  margin: auto;
+  display: block;
+  margin-top: 100px;
+  transition: 0.2s;
 }
 
 .carousel-img-container {
-  width: 380px;
+  width: 100%;
   padding: 0;
-}
-
-.carousel-item-css {
-  width: fit-content;
 }
 
 .navbar-nav-css {
@@ -50,6 +99,38 @@ body {
 }
 
 .navbar-nav-css {
+  text-align: center;
+}
+
+.skill-bar {
+  background-color: #4f6df5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 25px;
+}
+
+.skill-bar span {
+  color: #ffffff;
+  margin-right: 20px;
+  font-weight: 500;
+  float: right;
+}
+
+.skill {
+  border: 1px solid #bebebe;
+  margin: 20px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #aeaeae;
+  background-color: #f3f8fc;
+}
+
+.p-about{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.services-content{
   text-align: center;
 }
 
@@ -68,6 +149,7 @@ body {
     display: inline-block;
     margin: 180px 125px;
     margin-bottom: 320px;
+    padding-top: 0;
     /* overflow: auto; */
   }
 
@@ -82,6 +164,10 @@ body {
   .role {
     font-size: 30px;
     font-weight: 400;
+  }
+
+  .sosmed {
+    height: 50px;
   }
 
   .myPoto {
@@ -124,14 +210,6 @@ body {
     padding: 5px;
     border: 4px solid black;
     /* box-shadow: 2px 2px 5px grey; */
-  }
-
-  .poto-wrapper {
-    /* background-color: #505050;
-    overflow: hidden;
-    width: 350px;
-    border-radius: 100%;
-    border: 4px solid black; */
   }
 
   .content-about {
