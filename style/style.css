@@ -146,6 +146,43 @@ body {
   margin-bottom: 10px;
 }
 
+.service-bullet{
+  background-color: #85bcf7;
+  height: fit-content;
+}
+
+.img-service{
+  height: 100px;
+}
+
+.btn-info{
+  background-color: #2f7cce; 
+}
+
+.service-underline{
+  border-top: 5px solid #2f7cce;
+  width: 100px;
+  margin: 20px auto;
+  /* display: none; */
+}
+
+.service-point{
+  font-size: 18px;
+}
+
+.service-underline:hover{
+  border-top: 5px solid #2f7cce;
+  width: 100px;
+  margin: 20px auto;
+  animation-name: img-service-underline;
+  animation-duration: 0.3s;
+}
+
+@keyframes img-service-underline{
+  from {width: 0px;}
+  to {width: 100px;}
+}
+
 @media (min-width: 992px) {
   .navbar-nav-css {
     margin-left: 100px;
@@ -276,7 +313,7 @@ body {
     font-family: "Fira Sans", sans-serif;
     line-height: 2;
     font-size: 25px;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
   }
 
   .projects-content {
@@ -301,5 +338,11 @@ body {
 
   .img-contact:hover {
     height: 110px;
+  }
+
+  .service-items{
+    height: 200px;
+    overflow: visible;
+    padding-bottom: 0;
   }
 }
